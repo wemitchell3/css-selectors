@@ -1,0 +1,22 @@
+#intro {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+.title {
+    font-size: 1.85em;
+    line-height: 1.2em;
+}
+
+/*
+  This will select only the section and ignore the div
+*/
+.article > .article__header {
+    font-size: 1.85em;
+    line-height: 1.2em;
+    background-color: #f77f00;
+}
+
+section ~ section {
+    margin: 20px 0 10px 0;
+    background-color: blue;
+  }
